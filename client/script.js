@@ -5,7 +5,7 @@ function shortenURL() {
     var longUrl = document.getElementById('url').value.trim();
     
     // Make a request to your backend API to shorten the URL
-    fetch('http://localhost:3000/shorten', {
+    fetch('http://[2a00:a041:21e1:a600::1000]:1337/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
