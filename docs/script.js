@@ -5,7 +5,7 @@ function shortenURL() {
     var longUrl = document.getElementById('url').value.trim();
     
     // Make a request to your backend API to shorten the URL
-    fetch('https://660af18440231b0008a9fdeb--earnest-yeot-04c6ff.netlify.app/', {
+    fetch('https://660af285a8e30500083a4d8d--earnest-yeot-04c6ff.netlify.app/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
